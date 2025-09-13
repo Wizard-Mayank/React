@@ -8,8 +8,8 @@ const InputList = ({ content, setContent, addTask }) => {
   };
 
   return (
-    <div cl>
-      <h3>Shopping Cart</h3>
+    <div>
+      <h3 id="cartHeading">Shopping Cart</h3>
       <input
         className="inputField"
         type="text"
@@ -18,7 +18,7 @@ const InputList = ({ content, setContent, addTask }) => {
         onChange={handleChange}
       />
       <button className="btn" onClick={addTask}>
-        Add ➕
+        ➕
       </button>
     </div>
   );
@@ -26,16 +26,18 @@ const InputList = ({ content, setContent, addTask }) => {
 
 const CartList = ({ tasks, deleteTask }) => {
   return (
-    <div>
-      <h4>-----------LIST-----------</h4>
-      <ul>
+    <div className="cartList">
+      <h4 id="listHeading">ITEMS</h4>
+      <ol id="listContent">
         {tasks.map((task, index) => (
           <li key={index} className="taskList">
-            <span>{task}</span>
-            <button onClick={() => deleteTask(index)}>❌</button>
+            <span id="task">{task}</span>
+            <button className="btn" onClick={() => deleteTask(index)}>
+              ❌
+            </button>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 };

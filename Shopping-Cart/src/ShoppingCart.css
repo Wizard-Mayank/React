@@ -1,0 +1,100 @@
+.cartBox {
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 4rem;
+  color: white;
+
+  margin: 0.4rem;
+
+  box-shadow: 0rem 0rem 0.1rem 2rem red;
+    position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+#cartHeading {
+  text-align: center;
+  width: 70%;
+  border-radius: 1rem;
+  background-color: rgb(241, 218, 87);
+  margin: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+#cartHeading:hover {
+  background-color: rgb(249, 221, 62);
+  outline: 0.2rem solid silver;
+
+  cursor: default;
+}
+
+.inputField {
+  margin: 5%;
+  height: 15%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+.inputField:hover {
+  outline: 0.01rem solid silver;
+  background-color: white;
+}
+
+.btn {
+  width: 22%;
+  height: 15%;
+  border-radius: 0.7rem;
+
+  background-color: rgb(128, 242, 242);
+}
+
+.btn:hover {
+  cursor: pointer;
+
+  background-color: rgb(74, 246, 246);
+  outline: 0.01rem solid grey;
+}
+
+.cartList {
+  background-color: #6bf5fc57;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+.cartList:hover{
+    outline: 0.1rem solid white;
+}
+
+#listHeading {
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    border-radius: 0.3rem;
+    margin: 0.1rem;
+}
+
+#listContent {
+    /* position:fixed; */
+    /* outline: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#task {
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+.taskList{
+        outline: 0.01rem solid grey;
+}
+
+#listContent{
+    list-style: none;
+}
