@@ -1,0 +1,60 @@
+h1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.headingBox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  outline: 2px solid;
+  width: 60vw;
+  height: 50vh;
+  top: 20%;
+}
+
+.headingBox:hover {
+  box-shadow: 0rem 0rem 5rem 2rem magenta;
+}
+
+.heading {
+  position: relative;
+  justify-content: center;
+  margin-top: -10rem;
+  font-size: 2rem;
+  height: 11%;
+  border-radius: 1rem;
+}
+
+.heading:hover {
+  background-color: rgba(155, 239, 241, 0.758);
+}
+
+.inputArea {
+  position: relative;
+  top: 15%;
+}
+
+.textInput {
+  position: relative;
+}
+
+.textInput:hover {
+  outline: 2px solid gold;
+}
+
+.btn {
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  outline: 2px solid green;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
