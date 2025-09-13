@@ -8,7 +8,7 @@ const InputList = ({ content, setContent, addTask }) => {
   };
 
   return (
-    <div>
+    <div cl>
       <h3>Shopping Cart</h3>
       <input
         className="inputField"

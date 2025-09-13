@@ -1,5 +1,5 @@
 import React from "react";
-import ShoppingCart from "./ShoppingCart.jsx";
+import ShoppingCart from "./ShoppingCart.js";
 import "./reset.css";
 
 function App() {

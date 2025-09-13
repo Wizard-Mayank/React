@@ -1,4 +1,4 @@
-import Counter from "./Counter.jsx"
+import Counter from "../../public/Counter/Counter.jsx"
 
 // Counter Parent component to make Counter
 function CounterParent() {
