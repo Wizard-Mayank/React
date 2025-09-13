@@ -1,54 +1,54 @@
-# ⚛️ Welcome to My React Projects Lab
+# ⚛️ React Projects Lab
 
-![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+A **collection of React mini-projects and experiments**.  
+This repo is my **React playground** — clean, minimal, techy, and slightly quirky ⚡
 
-Welcome to my **React playground** — a hi-tech, minimal, and slightly funny collection of my React experiments.  
-Each project is a **standalone mini-lab** where I experiment with React features, hooks, state management, and CSS magic.  
-
----
-
-## 🚀 What’s in this lab?
-Think of this repo as a **React buffet** 🍕 — a mix of tiny experiments, full mini-apps, and “learning in public” projects.  
-
-- All projects are **modular** — no dependencies clash.  
-- **Modern React features** everywhere: hooks, functional components, and clean code.  
-- Fun, quirky, and sometimes slightly chaotic 🐙.  
-- Perfect for **learning, practicing, or just scrolling through**.  
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="400" alt="React Coding Animation">
+</p>
 
 ---
 
-## 🎨 Moodboard / Fun Vibes
-Here’s the vibe you’ll get exploring this repo:
+## 🚀 What’s Inside
 
-- **Serious & technical:**  
-![Serious coding GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+Think of this repo as **React candy** 🍬 — addictive, colorful, and sometimes messy:
 
-- **Funny React moments:**  
-![Funny dev GIF](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
+- ⚛️ **Standalone React mini-projects** — each folder is a separate lab
+- 🪝 Functional components & hooks — `useState`, `useEffect`
+- 🎨 Minimal, responsive, and modern UI
+- 😎 Fun, quirky experiments — may cause **spontaneous coding joy**
 
-- **Techy / Hacker vibes:**  
-![Techy GIF](https://media.giphy.com/media/26ufcYAk5u4LprU2E/giphy.gif)
+> _“Warning: Viewing too many projects may cause sudden urges to refactor everything.”_ 😅
 
-- **Just a little chaos:**  
-![Funny chaos sticker](https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif)
-
-> Each project folder has its own README with instructions, screenshots, and more fun surprises 😎  
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="300" alt="Coding Fun">
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
-| Technology | Status | Vibe |
-|------------|--------|------|
-| ⚛️ React | ✅ Core library | Magic of components |
-| 🪝 Hooks | ✅ useState, useEffect | State wizardry |
-| 🎨 CSS | ✅ Minimal & modern | Pixels with style |
-| 📦 npm | ✅ Package management | Dependency heaven |
-| 🔄 Live reload | ✅ CRA / Vite | Instant gratification |
+
+| Technology    | Status                 | Fun Fact                     |
+| ------------- | ---------------------- | ---------------------------- |
+| ⚛️ React      | ✅ Core library        | Hooks make everything better |
+| 🪝 Hooks      | ✅ useState, useEffect | Like magic spells for state  |
+| 🎨 CSS        | ✅ Minimal & modern    | Pixels behave nicely here    |
+| 📦 npm        | ✅ Package management  | Dependency heaven            |
+| 🔄 CRA / Vite | ✅ Live reload         | Instant gratification 😎     |
+
+> _“If your console isn’t glowing, are you really coding?”_
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" width="300" alt="Fun Coding GIF">
+</p>
 
 ---
 
-## 🎮 How to Explore
-1. Clone the repo:  
+## 📂 Getting Started
+
+1. Clone the repository:
+
 ```bash
-git clone https://github.com/your-username/React.git
+git clone https://github.com/Wizard-Mayank/React.git
 cd React
+```
