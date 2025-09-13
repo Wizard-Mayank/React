@@ -18,7 +18,7 @@ const InputList = ({ content, setContent, addTask }) => {
         onChange={handleChange}
       />
       <button className="btn" onClick={addTask}>
-        Add
+        Add ➕
       </button>
     </div>
   );
@@ -32,7 +32,7 @@ const CartList = ({ tasks, deleteTask }) => {
         {tasks.map((task, index) => (
           <li key={index} className="taskList">
             <span>{task}</span>
-            <button onClick={() => deleteTask(index)}>X</button>
+            <button onClick={() => deleteTask(index)}>❌</button>
           </li>
         ))}
       </ul>
