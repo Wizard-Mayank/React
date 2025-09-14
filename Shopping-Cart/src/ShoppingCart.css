@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 .cartBox {
   width: 70vw;
   height: 80vh;
@@ -11,8 +15,8 @@
 
   margin: 0.4rem;
 
-  box-shadow: 0rem 0rem 0.1rem 2rem red;
-    position: absolute;
+  box-shadow: 0rem 0rem 3rem 2rem rgb(0 255 210);
+  position: absolute;
   top: 10%;
   left: 15%;
 }
@@ -47,11 +51,7 @@
 }
 
 .btn {
-  width: 22%;
-  height: 15%;
   border-radius: 0.7rem;
-
-  background-color: rgb(128, 242, 242);
 }
 
 .btn:hover {
@@ -63,38 +63,39 @@
 
 .cartList {
   background-color: #6bf5fc57;
-  border-radius: 0.4rem;
   margin-top: 1rem;
 }
 
-.cartList:hover{
-    outline: 0.1rem solid white;
+.cartList:hover {
+  outline: 0.1rem solid white;
 }
 
 #listHeading {
-    text-align: center;
-    background-color: cyan;
-    color: black;
-    border-radius: 0.3rem;
-    margin: 0.1rem;
+  text-align: center;
+  background-color: cyan;
+  color: black;
+  margin: 0.1rem;
+}
+
+#listHeading:hover {
+  cursor: default;
 }
 
 #listContent {
-    /* position:fixed; */
-    /* outline: 4px solid red; */
-    display: flex;
-    flex-direction: column;
+  outline: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #task {
-    display: inline-block;
-    margin: 0.3rem;
+  display: inline-block;
+  margin: 0.3rem;
 }
 
-.taskList{
-        outline: 0.01rem solid grey;
+.taskList {
+  outline: 0.01rem solid grey;
 }
 
-#listContent{
-    list-style: none;
+#listContent {
+  list-style: none;
 }

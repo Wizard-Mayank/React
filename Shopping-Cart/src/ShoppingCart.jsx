@@ -1,46 +1,8 @@
 import React from "react";
 import "./ShoppingCart.css";
 import "./reset.css";
-
-const InputList = ({ content, setContent, addTask }) => {
-  const handleChange = (e) => {
-    setContent(e.target.value);
-  };
-
-  return (
-    <div>
-      <h3 id="cartHeading">Shopping Cart</h3>
-      <input
-        className="inputField"
-        type="text"
-        placeholder="Enter new item..."
-        value={content}
-        onChange={handleChange}
-      />
-      <button className="btn" onClick={addTask}>
-        ➕
-      </button>
-    </div>
-  );
-};
-
-const CartList = ({ tasks, deleteTask }) => {
-  return (
-    <div className="cartList">
-      <h4 id="listHeading">ITEMS</h4>
-      <ol id="listContent">
-        {tasks.map((task, index) => (
-          <li key={index} className="taskList">
-            <span id="task">{task}</span>
-            <button className="btn" onClick={() => deleteTask(index)}>
-              ❌
-            </button>
-          </li>
-        ))}
-      </ol>
-    </div>
-  );
-};
+import InputList from "./InputList";
+import CartList from "./CartList";
 
 const ShoppingCart = () => {
   const [content, setContent] = React.useState("");
