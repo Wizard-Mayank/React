@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./assets/Clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  /* outline: 2px solid darkmagenta; */
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  margin: 8rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userInput {
+}
+
+.outer-box {
+  outline: 2px solid black;
+  height: 70vh;
+  width: 70vw;
+  border-radius: 3rem;
+  text-align: center;
+  position: relative;
+  background: #0000001a;
+}
+
+.row1 {
+  position: relative;
+  display: flex;
+  outline: 1px solid black;
+  width: 20%;
+  margin: 1rem 16rem;
+  border-radius: 2rem;
+  gap: 2rem;
+  left: 17%;
+}
+
+#img1 {
+  position: relative;
+  left: 7%;
+}
+
+.todayHeading {
+  position: relative;
+  left: 10%;
+  scale: 2;
+}
+
+.city {
+  text-align: center;
+  padding: 23px;
+  scale: 1.1;
+  outline: 1px solid black;
+  position: relative;
+  border-radius: 2rem;
+  width: 30%;
+  left: 34%;
+  top: 5%;
+}
+
+.temperatureBox {
+  position: relative;
+  width: 30%;
+  left: 38%;
+  scale: 2;
+  top: 25%;
+  outline: 1px solid black;
+  border-radius: 2rem;
+}
